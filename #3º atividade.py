@@ -1,4 +1,7 @@
 #3º atividade
+
+print("============================================")
+
 #primeira parte
 CLUBE = input("Digite o seu time: ")
 POSIÇAO = int(input("Digite o lugar na posição: "))
@@ -12,6 +15,8 @@ elif POSIÇAO >= 7 and POSIÇAO <= 12:
 elif POSIÇAO >= 13 and POSIÇAO <= 16:
     print(f"O {CLUBE} esta rebaixado")
 
+print("============================================")
+
 #segunda parte
 LOCAL = input("Digite o estado (RJ/SP/MG/ES): ")
 print("Esteve no horario exato do eclipse?")
@@ -24,6 +29,7 @@ if DIA == "S":
     elif (LOCAL == "RJ" or LOCAL == "SP" or LOCAL == "MG" or LOCAL == "ES" and HORA > 0):
         print("eclipse parcial")
 
+print("============================================")
 
 #terceira parte
 X = int(input("Me informe um numero: "))
@@ -36,6 +42,8 @@ elif X < Z and Z < Y:
     print("esta em ordem crescente")
 elif X > Z and Z < Y or X < Z and Z > Y:
     print("esta misturado")
+
+print("============================================")
 
 #quarta parte
 print("Qual posição você gosta de jogar no futebol?")
@@ -57,6 +65,8 @@ elif FUNÇAO >= 4 and FUNÇAO <= 6:
 elif FUNÇAO >= 7 and FUNÇAO <= 9:
     print("Atacante")
 
+print("============================================")
+
 #quinta parte
 SERVIÇO = input("O serviço foi prestado(S/N): ")
 print("Qual a nota você daria pro serviço prestado?")
@@ -69,8 +79,10 @@ NOTA = int(input())
 
 if SERVIÇO == "N":
     RECLAMAÇAO = input("Qual a sua reclamação sobre o serviço: ")
-else:
-    print("Obrigado pela sua opinião!!")
+
+print("Obrigado pela sua opinião!!")
+
+print("============================================")
 
 #sexta parte
 print("Cada jogador escolha um")
@@ -81,9 +93,11 @@ JOGADOR1 = input("jogador 1: ")
 JOGADOR2 = input("Jogador 2: ")
 
 
-if JOGADOR1 == "papel" and JOGADOR2 == "pedra":
+if JOGADOR1 == "papel" and JOGADOR2 == "pedra" or JOGADOR1 == "tesoura" and JOGADOR2 == "papel" or JOGADOR1 == "pedra" and JOGADOR2 == "tesoura":
     print("Jogador 1 ganhou")
 elif JOGADOR1 == "pedra" and JOGADOR2 == "papel" or JOGADOR1 == "papel" and JOGADOR2 == "tesoura" or JOGADOR1 == "tesoura" and JOGADOR2 == "pedra":
     print("Jogador 2 ganhou")
 elif JOGADOR1 == "tesoura" and JOGADOR2 == "tesoura" or JOGADOR1 == "pedra" and JOGADOR2 == "pedra" or JOGADOR1 == "papel" and JOGADOR2 == "papel":
     print("Empate")
+    
+print("============================================")

@@ -20,13 +20,13 @@ while resp == "S" or resp == "s":
         litros = int(input("Quantos litros de Gasolina comum você ira querer? "))
         soma_litros = soma_litros + litros
         preço = preço + soma_litros * GC
-        print(f"O preço do Gasolina comum é R${preço:.2f}")
+        print(f"O preço da Gasolina comum é R${preço:.2f}")
         
     elif Combustivel == "GA" or Combustivel == "ga":
         litros = int(input("Quantos litros Gasolina Aditivada você ira querer? "))
         soma_litros = soma_litros + litros
         preço = preço + soma_litros * GA
-        print(f"O preço do Gasolina Aditivada é R${preço:.2f}")
+        print(f"O preço da Gasolina Aditivada é R${preço:.2f}")
         
     elif Combustivel == "D" or Combustivel == "d":
         litros = int(input("Quantos litros de Diesel você ira querer? "))

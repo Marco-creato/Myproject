@@ -6,7 +6,7 @@ qtd_renda = 0
 # inicio do codigo
 for cont in range(3):
     #coletando dados
-    renda = float(input("Informe a renda familliar: "))
+    renda = float(input("Informe a renda familiar: "))
     qtd_filhos = int(input("Informe a quantidade de filhos: "))
     #Acumulando dados
     soma_renda = soma_renda + renda
